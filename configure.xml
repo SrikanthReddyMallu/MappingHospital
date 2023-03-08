@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p"
+
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+	
+	<bean id="myhospital" class="com.mapping.Hospital">
+	
+	
+	<property name="id" value="2"></property>
+	<property name="name" value="Apollo"></property>
+	<property name="website" value="www.Apollo.com"></property>
+	<property name="Phno" value="970436"></property>
+	<property name="BnameLocation">
+	<map>
+	<entry>
+	<key>
+	<value>Basavanagudi</value>
+	</key>
+	<value> Near LalBagh metro</value>
+	</entry>
+	</map>
+	</property>
+	</bean>
+
+</beans>
